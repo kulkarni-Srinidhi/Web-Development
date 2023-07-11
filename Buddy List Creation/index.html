@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buddy list</title>
+</head>
+<body>
+    <header>
+        <img src="./images/Logo.png" alt="logo" height="50" width="50">
+        <nav>
+            <img src="./images/add.png" alt="user-add" height="50" width="50" style="cursor: pointer;">
+            <img src="./images/dots.png" alt="3-dots" height="30" width="30" margin-bottom="5px" style="cursor: pointer;">
+        </nav>
+    </header>
+    <div class="container">
+        <div class="userslist">
+            <div class="user hide">
+                <span class="profile-img">
+                    <img src="./images/add.png" alt="user-add" height="30" width="30">
+                </span>
+                <ul>
+                    <li class="name">user name</li>
+                    <li class="status">Status</li>
+                </ul>
+                <img src="./images/dots.png" alt="menu" height="20" width="20">
+            </div>
+        </div>
+        <div class="chatbox">
+            <div class="chat-header">
+                <img src="./images/Logo.png" alt="logo" height="50" width="50">
+                <div class="chat-title">Sample Chat</div>
+            </div>
+            <div class="chat-body">
+                <div class="chat-body-content">
+                    <div class="msg1" style="color: white;">
+                        <span>hey there!</span>
+                    </div>
+                    <div class="msg2" style="color: white;">
+                        <span>hola</span>
+                    </div>
+                    <div class="msg1" style="color: white;">
+                      <span>how are you doing!?</span>
+                  </div>
+                  <div class="msg2" style="color: white;">
+                      <span>I am doing great!!</span>
+                  </div>
+                </div>
+            </div>
+                <div class="msg-typer">
+                    <nav>
+                        <input type="text" name="typer" id="input-msg" placeholder="Enter your message here!">
+                        <img src="./images/emoji.png" alt="send" height="30" width="30" class="sender" style="cursor: pointer;">
+    
+                        <img src="./images/02.png" alt="send" height="30" width="30" class="sender" style="cursor: pointer;">
+                    </nav>
+                </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
